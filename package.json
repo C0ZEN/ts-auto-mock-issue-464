@@ -1,5 +1,5 @@
 {
-  "name": "ts-auto-mock-issue-458",
+  "name": "ts-auto-mock-issue-464",
   "version": "1.0.0",
   "author": {
     "email": "geoffrey.testelin@gmail.com",
@@ -9,7 +9,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/C0ZEN/ts-auto-mock-issue-458.git"
+    "url": "https://github.com/C0ZEN/ts-auto-mock-issue-464.git"
   },
   "engines": {
     "node": "12.x"
@@ -33,7 +33,7 @@
     "lint": "eslint --fix --ext .js,.ts --cache scripts/ src/ jest.config.js config.ts"
   },
   "dependencies": {
-    "firebase-admin": "9.0.0"
+    "discord.js": "12.2.0"
   },
   "devDependencies": {
     "@types/app-root-path": "1.2.4",
@@ -60,7 +60,7 @@
     "parcel-bundler": "1.12.4",
     "prettier": "2.0.5",
     "rimraf": "3.0.2",
-    "ts-auto-mock": "2.3.3",
+    "ts-auto-mock": "2.3.4",
     "ts-jest": "26.1.4",
     "ts-node-dev": "1.0.0-pre.56",
     "tsconfig-paths": "3.9.0",

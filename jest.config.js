@@ -44,7 +44,7 @@ module.exports = {
 
   displayName: {
     color: `magenta`,
-    name: `ts-auto-mock-issue-458`,
+    name: `ts-auto-mock-issue-464`,
   },
 
   // Make calling deprecated APIs throw helpful error messages
