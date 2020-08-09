@@ -1,0 +1,70 @@
+{
+  "name": "ts-auto-mock-issue-458",
+  "version": "1.0.0",
+  "author": {
+    "email": "geoffrey.testelin@gmail.com",
+    "name": "Geoffrey 'C0ZEN' Testelin",
+    "url": "https://github.com/C0ZEN"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/C0ZEN/ts-auto-mock-issue-458.git"
+  },
+  "engines": {
+    "node": "12.x"
+  },
+  "private": false,
+  "files": [
+    "dist/*",
+    "LICENSE",
+    "package.json",
+    "package-lock.json",
+    "README.md"
+  ],
+  "main": "./src/index.ts",
+  "scripts": {
+    "start": "ts-node-dev --respawn --transpile-only .",
+    "tsc": "tsc",
+    "test": "jest",
+    "test:watch": "jest --watchAll --unhandled-rejections=strict",
+    "test:watch:no-cache": "jest --watchAll --no-cache",
+    "test:clear-cache": "jest --clearCache",
+    "lint": "eslint --fix --ext .js,.ts --cache scripts/ src/ jest.config.js config.ts"
+  },
+  "dependencies": {
+    "firebase-admin": "9.0.0"
+  },
+  "devDependencies": {
+    "@types/app-root-path": "1.2.4",
+    "@types/jest": "26.0.9",
+    "@types/node": "12.12.54",
+    "@types/ws": "7.2.6",
+    "@typescript-eslint/eslint-plugin": "3.8.0",
+    "@typescript-eslint/parser": "3.8.0",
+    "app-root-path": "3.0.0",
+    "eslint": "7.6.0",
+    "eslint-config-google": "0.14.0",
+    "eslint-config-prettier": "6.11.0",
+    "eslint-config-recommended": "4.1.0",
+    "eslint-plugin-import": "2.22.0",
+    "eslint-plugin-jest": "23.20.0",
+    "eslint-plugin-prettier": "3.1.4",
+    "eslint-plugin-rxjs": "0.0.2-beta.28",
+    "eslint-plugin-typescript-sort-keys": "1.3.0",
+    "jest": "26.2.2",
+    "jest-extended": "0.11.5",
+    "jest-silent-reporter": "0.2.1",
+    "jest-ts-auto-mock": "1.0.11",
+    "lint-staged": "10.2.11",
+    "parcel-bundler": "1.12.4",
+    "prettier": "2.0.5",
+    "rimraf": "3.0.2",
+    "ts-auto-mock": "2.3.3",
+    "ts-jest": "26.1.4",
+    "ts-node-dev": "1.0.0-pre.56",
+    "tsconfig-paths": "3.9.0",
+    "ttypescript": "1.5.10",
+    "typescript": "3.9.7"
+  }
+}
